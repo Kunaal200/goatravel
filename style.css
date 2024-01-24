@@ -142,8 +142,13 @@ main p{
 }
 .tour-packages-tiles{
     display: grid;
-    gap: 50px;
     grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.tour-row{
+    width: 373px;
+    height: 373px;
 }
 section .testimonial span{
     font-size: 15px;
