@@ -30,7 +30,7 @@ h4{
     font-weight: 500;
 }
 hr{
-    width: 250px;
+    width: 20%;
     border: 1px solid #3B53B5;
 }
 a{
@@ -47,13 +47,18 @@ a{
     border-radius: 5px;
     font-size: 15px;
 }
-
 .container{
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     flex: 0 0 100%;
     flex-direction: column;  
+    gap: 40px;
+}
+.center-h{
+    max-width: 735px;
+    margin: 90px auto;
+    height: 90px;
 }
 header{
     display: flex;background-image: url(./images/main.jpg);
@@ -94,7 +99,6 @@ nav{
  }
 main{
     text-align: center;
-    padding-top: 25px;
 }
 main h2{
     color: rgb(90, 89, 89);
@@ -109,53 +113,66 @@ main p{
 .destin-img{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
+    margin: 0 70px;
 }
 .destination-img{
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 .image-portrait1{
     background-image: url(./images/1.jpg);
     background-size: cover
-    height: 400px;
+    height: 250px;
     width: 30%;
     background-size: cover;
 }
 .image-landscape1{
     background-image: url(./images/2.jpg);
-    height: 400px;
+    height: 250px;
     width: 70%;
     background-size: cover;
 }
 .image-portrait2{
     background-image: url(./images/3.jpg);
-    height: 400px;
+    height: 250px;
     width: 70%;
     background-size: cover;
+    background-position: center;
 }
 .image-landscape2{
     background-image: url(./images/4.jpg);
-    height: 400px;
+    height: 250px;
     width: 30%;
     background-size: cover;
+    background-position: center;
 }
 .tour-packages-tiles{
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
+    gap: 100px;
 }
 .tour-row{
-    width: 373px;
-    height: 373px;
+    width: 320px;
+    height: 350px;
+    margin: 60px auto;
 }
 section .testimonial span{
     font-size: 15px;
     color: black;
 }
+.test-align{
+    height: 0;
+    margin: 65px auto;
+}
 .testimonial{
-    margin: 85px;
+    max-width: 547px;
+    margin: 0 auto;
+}
+.testimonial p{
+    line-height: 1.4;
 }
 .container-learnmore{
     background-color: #F5F5F5;
@@ -187,5 +204,8 @@ footer{
     flex: 0 0 100%;
     }
 .container-learn-more{
-    padding: 70px;
+    height: 250px;
+}
+.learn-section{
+    
 }
