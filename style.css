@@ -84,7 +84,11 @@ nav{
 .center{
     text-align: center;
     color: white;
-    
+    display: flex;
+    height: 525px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 .center h1{
     margin-bottom: 0px;
