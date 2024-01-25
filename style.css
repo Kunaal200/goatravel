@@ -175,7 +175,7 @@ section .testimonial span{
 .testimonial{
     font-size: 18px;
     max-width: 620px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
 }
 .testimonial p{
     line-height: 1.4;
