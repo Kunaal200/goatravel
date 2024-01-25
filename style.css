@@ -40,6 +40,12 @@ a{
 .bg-grey{
     background-color: #F5F5F5;
 }
+.blue-btn:hover
+{
+  background: ;
+  background-color: antiquewhite;
+  color: black;
+}
 .blue-btn{
     background-color: #3751B5;
     color: #ffffff;
@@ -67,6 +73,9 @@ header{
     background-size: cover;
     display: flex;
     height: 600px;
+}
+.menu a:hover{
+    color: #000;
 }
 nav{
     display: flex;
@@ -111,6 +120,10 @@ main p{
     color: rgb(102, 102, 120);
     line-height: 1.8;
     font-weight: 400;
+}
+.desti-gap
+{
+  margin: 0 auto 90px;
 }
 .destin-img{
     display: flex;
@@ -236,7 +249,7 @@ footer{
  }
 .footer-container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex: 0 0 100%;
-    }
+    justify-content: space-evenly;
+}
