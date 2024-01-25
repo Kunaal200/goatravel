@@ -215,6 +215,25 @@ footer{
     background-color: #607D8B;
     color: #DADDE3;
  }
+ .icon{
+    display: flex;
+    gap: 15px;
+ }
+ .twitter{
+    background-image: url(./images/twitter.png);
+ }
+ .facebook{
+    background-image: url(./images/facebook.png);
+ }
+ .snapchat{
+    background-image: url(./images/snapchat.png);
+ }
+ .twitter, .facebook, .snapchat {
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 25px;
+    background-size: 100%;
+ }
 .footer-container{
     display: flex;
     justify-content: space-between;
