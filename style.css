@@ -40,11 +40,9 @@ a{
 .bg-grey{
     background-color: #F5F5F5;
 }
-.blue-btn:hover
-{
-  background: ;
-  background-color: antiquewhite;
-  color: black;
+.blue-btn:hover{    
+    background-color: antiquewhite;
+    color: black;
 }
 .blue-btn{
     background-color: #3751B5;
@@ -137,7 +135,6 @@ main p{
 }
 .image-portrait1{
     background-image: url(./images/1.jpg);
-    background-size: cover
     height: 250px;
     width: 30%;
     background-size: cover;
@@ -182,13 +179,12 @@ section .testimonial span{
     color: black;
 }
 .test-align{
-    height: 0;
-    margin: 65px auto;
+    margin: 65px auto auto;
 }
 .testimonial{
     font-size: 18px;
     max-width: 620px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
 }
 .testimonial p{
     line-height: 1.4;
@@ -200,8 +196,6 @@ section .testimonial span{
     max-width: 600px;
     margin: 0 auto;
     font-size: 13px;
-}
-.learn-more{
     margin: 60px auto auto;
 }
 .subscribe-now
