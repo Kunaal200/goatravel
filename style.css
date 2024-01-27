@@ -74,6 +74,7 @@ header{
     background-size: cover;
     display: flex;
     height: 600px;
+    background-position: bottom;
 }
 .menu a:hover{
     color: #000;
