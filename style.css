@@ -37,6 +37,9 @@ hr{
 a{
     text-decoration: none;
 }
+section p{
+    color: rgb(102, 102, 120);;
+}
 .bg-grey{
     background-color: #F5F5F5;
 }
@@ -161,10 +164,9 @@ main p{
 }
 .tour-packages-tiles{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    column-gap: 100px;
 }
 .tour-row{
     width: 300px;
@@ -176,7 +178,7 @@ main p{
 }
 section .testimonial span{
     font-size: 15px;
-    color: black;
+    color: rgb(102, 102, 120);
 }
 .test-align{
     margin: 65px auto auto;
